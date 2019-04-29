@@ -2,13 +2,18 @@ html {
     font-size: 16px;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
+
+.icon {
+    width: 88px;
+    height: 88px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 1rem;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+.icon img {
+    width: 100%;
 }
+
