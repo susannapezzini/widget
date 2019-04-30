@@ -143,4 +143,10 @@ $RECYCLE.BIN/
 # Bootstrap 
 bootstrap-4.3.1-dist
 
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 # End of https://www.gitignore.io/api/node,macos,windows
