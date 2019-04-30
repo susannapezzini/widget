@@ -1,0 +1,13 @@
+@mixin brand {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: $value;
+    color: $neutral;
+}
+
+
+@mixin button {
+    font-weight: 400;
+    font-size: $value;
+}

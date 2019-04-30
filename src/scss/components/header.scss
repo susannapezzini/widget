@@ -1,0 +1,19 @@
+.header  {
+    height: $value*4;
+    background-color: $bright;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: $value;
+    &_brand {
+        display: flex;
+        align-items: center;
+    }
+    &_title {
+        margin-left: $value;
+        @include brand;
+    }
+    & img {
+        width: 32px;
+    }
+}

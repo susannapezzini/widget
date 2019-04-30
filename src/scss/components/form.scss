@@ -1,0 +1,12 @@
+.form,
+.form_select {
+    @include no-appearence;
+}
+
+.form {
+    margin-bottom: $value;
+    &_display {
+    display: flex;
+    flex-direction: column;
+    }
+}

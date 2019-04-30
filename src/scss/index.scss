@@ -1,1 +1,12 @@
+@import 'utils/variables.scss';
 @import 'utils/settings.scss';
+@import 'utils/typography.scss';
+
+@import 'layout/wrapper.scss';
+@import 'layout/container.scss';
+
+@import 'components/header.scss';
+@import 'components/buttons.scss';
+@import 'components/form.scss';
+
+@import 'media/img.scss';

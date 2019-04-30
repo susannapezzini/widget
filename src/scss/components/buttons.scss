@@ -1,0 +1,35 @@
+.close {
+    @include no-style;
+    @include no-mg-pd;
+    color: $neutral;
+}
+
+.next {
+    background-color: $success;
+    border-radius: 5px;
+    font-size: $value;
+    line-height: ($value*3)/2;
+    padding: $value/2;
+    width: 25%;
+        &-first {
+            margin: $value auto;
+        }
+    & a {
+        @include button;
+        @include no-style;
+        color: $neutral;
+    }
+}
+.prev {
+    border: 2px solid $success;
+    border-radius: 5px;
+    font-size: $value;
+    line-height: ($value*3)/2;
+    padding: $value/2;
+    width: 25%;
+    & a {
+        @include button;
+        @include no-style;
+        color: $success;
+    }
+}

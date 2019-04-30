@@ -1,3 +1,128 @@
+html {
+  font-size: 16px;
+  font-family: nunito, sans-serif; }
 
+body {
+  padding: 0;
+  margin: 0; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 16px; }
+  .wrapper-bg {
+    background-image: url("../../img/Screen Shot 2019-04-30 at 21.31.30.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.container {
+  text-align: center; }
+  .container_booking {
+    margin: 0;
+    padding: 16px 0; }
+  .container_booking ul,
+  .container li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0; }
+  .container_booking h4 {
+    line-height: 8px;
+    padding: 0;
+    margin: 0; }
+  .container_nav {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+
+.header {
+  height: 64px;
+  background-color: #fbba42;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 16px; }
+  .header_brand {
+    display: flex;
+    align-items: center; }
+  .header_title {
+    margin-left: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff; }
+  .header img {
+    width: 32px; }
+
+.close {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff; }
+
+.next {
+  background-color: #20C1C7;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 25%; }
+  .next-first {
+    margin: 16px auto; }
+  .next a {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff; }
+
+.prev {
+  border: 2px solid #20C1C7;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 25%; }
+  .prev a {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #20C1C7; }
+
+.form,
+.form_select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+.form {
+  margin-bottom: 16px; }
+  .form_display {
+    display: flex;
+    flex-direction: column; }
+
+.icon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 16px; }
+  .icon img {
+    width: 64px; }
+
+svg {
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=index.css.map */

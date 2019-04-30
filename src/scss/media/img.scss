@@ -1,0 +1,13 @@
+.icon {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: $value;
+    & img {
+        width: 64px;
+    }
+}
+
+svg {
+    @include no-mg-pd;
+}

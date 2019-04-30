@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    &_booking {
+        margin: 0;
+        padding: $value 0;
+    }
+    &_booking ul,
+    li {
+        @include no-style;
+        @include no-mg-pd;
+    }
+    &_booking h4 {
+        line-height: $value/2;
+        @include no-mg-pd;
+    }
+    &_nav {
+        padding: $value 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

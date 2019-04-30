@@ -1,21 +1,20 @@
 /*
 Error: Undefined variable: "$value".
-        on line 19 of src/scss/utils/settings.scss
+        on line 5 of src/scss/media/img.scss
 
-14:     -o-appearance: none;
-15:     appearance: none;
-16: }
-17: 
-18: html {
-19:     font-size: $value;
-20:     font-family: $sans-serif;
-21: }
-22: 
-23: body {
-24:     @include no-mg-pd;
+1: .icon {
+2:     position: fixed;
+3:     right: 0;
+4:     bottom: 0;
+5:     margin: $value;
+6:     & img {
+7:         width: 64px;
+8:     }
+9: }
+10: 
 
 Backtrace:
-src/scss/utils/settings.scss:19
+src/scss/media/img.scss:5
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -69,4 +68,4 @@ src/scss/utils/settings.scss:19
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$value\".\A         on line 19 of src/scss/utils/settings.scss\A \A 14:     -o-appearance: none;\A 15:     appearance: none;\A 16: }\A 17: \A 18: html {\A 19:     font-size: $value;\A 20:     font-family: $sans-serif;\A 21: }\A 22: \A 23: body {\A 24:     @include no-mg-pd;"; }
+  content: "Error: Undefined variable: \"$value\".\A         on line 5 of src/scss/media/img.scss\A \A 1: .icon {\A 2:     position: fixed;\A 3:     right: 0;\A 4:     bottom: 0;\A 5:     margin: $value;\A 6:     & img {\A 7:         width: 64px;\A 8:     }\A 9: }\A 10: "; }

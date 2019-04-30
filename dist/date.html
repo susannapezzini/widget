@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/bootstrap.css">
-    <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="styles/index.css">
-    <title>Widget | Select Date</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="../src/img/favicon.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <title>Widget | Select a day</title>
 </head>
 <body>
+    <div class="header">
+        <div class="header_brand">
+            <img src="../src/img/logo.png" alt="Widget Logo">
+            <p class="header_title">Widget</p>
+        </div>
+        <a class="close" href="index.html">X</a>
+    </div>
+    <div class="wrapper">
+            <div class="container">
+                <p class="container_claim">
+                    Make your online booking quick and easy
+                </p>
+                <svg height="3" width="100">
+                        <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fbba42;stroke-width:2" />
+                </svg>
+                <div class="container_booking">
+                    <span><strong>Your Booking:</strong></span>
+                    <ul>
+                        <li><small>1.5h - Fitness Training - $150</small></li>
+                    </ul>
+                </div>
+                <svg height="3" width="100">
+                        <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fbba42;stroke-width:2" />
+                </svg>
 
-    <h1>Select a day</h1>
+                <p class="container_claim">
+                    Select a day:
+                </p> 
+
+                <form class="form">
+                   <input type="date">
+                </form>
+
+                <div class="container_nav">
+                    <div class="prev">
+                        <a href="service.html">Prev</a>                    
+                    </div>
+                    <div class="next">
+                        <a href="time.html">Next</a>
+                    </div>
+                </div>
+            </div>
+    </div>
     
 </body>
 </html>
