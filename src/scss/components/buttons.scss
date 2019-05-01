@@ -11,8 +11,10 @@
     line-height: ($value*3)/2;
     padding: $value/2;
     width: 25%;
+    text-align: center;
         &-first {
             margin: $value auto;
+            width: 50%;
         }
     & a {
         @include button;
