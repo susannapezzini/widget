@@ -17,9 +17,16 @@ body {
   margin: 0;
   padding: 16px; }
   .wrapper-bg {
-    background-image: url("../../img/Screen Shot 2019-04-30 at 21.31.30.png");
     background-repeat: no-repeat;
+    background-image: url("../../src/img/gym.png");
     background-size: cover; }
+  .wrapper-dt {
+    background-repeat: no-repeat;
+    background-image: url("../../src/img/bg.png");
+    background-size: cover;
+    padding: 0;
+    width: 100vw;
+    height: 100vh; }
 
 .container {
   text-align: center; }
@@ -41,6 +48,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+
+.box {
+  width: 90vw;
+  height: 50vh;
+  background-color: blue;
+  position: fixed;
+  bottom: 3%;
+  right: 3%; }
 
 .header {
   height: 64px;
@@ -122,6 +137,8 @@ body {
   margin: 16px; }
   .icon img {
     width: 64px; }
+  .icon img:hover {
+    width: 74px; }
 
 svg {
   padding: 0;

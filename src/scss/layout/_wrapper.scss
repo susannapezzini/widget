@@ -4,8 +4,18 @@
     margin: 0;
     padding: $value;
     &-bg {
-        background-image: url('../../img/gym.png');
         background-repeat: no-repeat;
+        background-image: url('../../src/img/gym.png');
         background-size: cover;
+    }
+    
+    &-dt {
+        background-repeat: no-repeat;
+        background-image: url('../../src/img/bg.png');
+        background-size: cover;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+
     }
 }
