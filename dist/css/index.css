@@ -1,0 +1,322 @@
+html {
+  font-size: 16px;
+  font-family: nunito, sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 16px; }
+  .wrapper-bg {
+    background-repeat: no-repeat;
+    background-image: url("../../src/img/gym.png");
+    background-size: cover; }
+  .wrapper-dt {
+    background-repeat: no-repeat;
+    background-image: url("../../src/img/bg.png");
+    background-size: cover;
+    padding: 0;
+    width: 100vw;
+    height: 100vh; }
+
+.container {
+  text-align: center; }
+  .container_booking {
+    margin: 0;
+    padding: 16px 0; }
+  .container_booking ul,
+  .container li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0; }
+  .container_booking h4 {
+    line-height: 8px;
+    padding: 0;
+    margin: 0; }
+  .container_nav {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .container_claim {
+    margin-bottom: 16px; }
+
+.box {
+  width: 90vw;
+  height: 70vh;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 3px 0px #a8a8a8;
+  -moz-box-shadow: 6px 6px 3px 0px #a8a8a8;
+  box-shadow: 6px 6px 3px 0px #a8a8a8; }
+  .box_title {
+    padding-left: 16px; }
+  .box_content {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-wrap: nowrap; }
+  .box_item {
+    width: 25%;
+    margin-right: 32px; }
+    .box_item-nomg {
+      margin-right: 0; }
+    .box_item ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+
+.review {
+  margin-top: 16px;
+  padding: 16px; }
+
+.time {
+  margin: 0;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap; }
+  .time_slots {
+    color: #20C1C7;
+    border: 2px solid #20C1C7;
+    border-radius: 3px;
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer; }
+  .time_slots:hover {
+    color: #ffffff;
+    background-color: #20C1C7; }
+  .time_slots p {
+    display: inline-block;
+    margin: 0; }
+
+.header {
+  height: 64px;
+  background-color: #fbba42;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 16px; }
+  .header_brand {
+    display: flex;
+    align-items: center; }
+  .header_title {
+    margin-left: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff; }
+  .header img {
+    width: 32px; }
+
+.close {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff; }
+
+.next {
+  background-color: #20C1C7;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 25%;
+  text-align: center; }
+  .next-first {
+    margin: 16px auto;
+    width: 50%; }
+  .next a {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff; }
+
+.prev {
+  border: 2px solid #20C1C7;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 25%; }
+  .prev a {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #20C1C7; }
+  .prev a:hover {
+    color: #ffffff;
+    background-color: #20C1C7; }
+  .prev:hover {
+    background-color: #20C1C7; }
+
+.understand {
+  background-color: #20C1C7;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 60%;
+  text-align: center;
+  display: inline-block; }
+  .understand a {
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff; }
+
+.form,
+.form_select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+.form {
+  margin-bottom: 16px; }
+  .form_display {
+    display: flex;
+    flex-direction: column; }
+
+.calendar {
+  margin-top: 8px; }
+
+ul {
+  list-style-type: none; }
+
+/* Month header */
+.month {
+  padding: 8px;
+  width: 100%;
+  background: #20C1C7;
+  text-align: center; }
+
+/* Month list */
+.month_header {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center; }
+
+.month ul li {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 8px; }
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 8px; }
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  background-color: #ddd;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+
+.weekdays li {
+  padding: 8px;
+  color: #666;
+  text-align: center; }
+
+/* Days (1-31) */
+.days {
+  background: #eee;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  cursor: pointer; }
+
+.days li {
+  padding: 8px;
+  list-style-type: none;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777; }
+
+.days li:hover {
+  font-weight: 600;
+  color: #20C1C7; }
+
+/* Highlight the "current" day */
+.active {
+  background: #20C1C7;
+  color: white !important; }
+
+.modal {
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed; }
+  .modal_close {
+    color: darkgrey;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 16px; }
+  .modal_box {
+    background-color: #ffffff;
+    width: 30vw;
+    margin: auto;
+    position: relative;
+    top: 30%;
+    padding: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 5px; }
+  .modal_nav {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+
+.icon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 16px; }
+  .icon img {
+    width: 64px; }
+  .icon img:hover {
+    width: 74px; }
+
+svg {
+  padding: 0;
+  margin: 0; }
+
+.fa-check {
+  color: #20C1C7; }
+
+/*# sourceMappingURL=index.css.map */

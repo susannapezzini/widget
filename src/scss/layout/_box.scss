@@ -1,8 +1,44 @@
 .box {
     width: 90vw;
-    height: 50vh;
-    background-color: blue;
+    height: 70vh;
+    background-color: $neutral;
     position: fixed;
     bottom: 3%;
     right: 3%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    -webkit-box-shadow: 6px 6px 3px 0px rgba(168,168,168,1);
+    -moz-box-shadow: 6px 6px 3px 0px rgba(168,168,168,1);
+    box-shadow: 6px 6px 3px 0px rgba(168,168,168,1);
+
+    &_title {
+        padding-left: $value;
+    }
+
+    &_content {
+        display: flex;
+        padding: $value;
+        justify-content: space-between;
+        align-items: baseline;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    &_item {
+        width: 25%;
+        margin-right: $value*2;
+
+        &-nomg {
+            margin-right: 0;
+        }
+        & ul {
+            list-style-type: none;
+            @include no-mg-pd;
+        }
+    }
+
+}
+.review {
+    margin-top: $value;
+    padding: $value;
 }

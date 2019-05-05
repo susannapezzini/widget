@@ -34,4 +34,30 @@
         @include no-style;
         color: $success;
     }
+    
+    & a:hover {
+        color: $neutral;
+        background-color: $success;
+    }
+
+    &:hover {
+        background-color: $success;
+    }
+}
+
+
+.understand {
+    background-color: $success;
+    border-radius: 5px;
+    font-size: $value;
+    line-height: ($value*3)/2;
+    padding: $value/2;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    & a {
+        @include button;
+        @include no-style;
+        color: $neutral;
+    }
 }

@@ -1,0 +1,27 @@
+.time {
+    margin: 0;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    &_slots {
+        color: $success;
+        border: 2px solid $success;
+        border-radius: 3px;
+        margin: $value/2;
+        padding: $value/2;
+        cursor: pointer;
+    }
+
+    &_slots:hover {
+        color: $neutral;
+        background-color: $success;
+    }
+
+    &_slots p {
+        display: inline-block;
+        margin: 0;
+    }
+}

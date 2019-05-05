@@ -14,3 +14,7 @@
 svg {
     @include no-mg-pd;
 }
+
+.fa-check {
+    color: $success;
+}
