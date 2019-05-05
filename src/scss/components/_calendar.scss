@@ -2,7 +2,8 @@
     margin-top: $value/2;
 }
 ul {
-    list-style-type: none;
+    @include no-style;
+    @include no-mg-pd;
 }
 
 /* Month header */
@@ -25,6 +26,7 @@ ul {
     color: white;
     font-size: $value;
     text-transform: uppercase;
+    @include no-style;
   }
   
   /* Previous button inside month header */
@@ -41,6 +43,7 @@ ul {
   
   /* Weekdays (Mon-Sun) */
   .weekdays {
+    @include no-style;
     margin: 0;
     background-color:#ddd;
     display: flex;
@@ -49,6 +52,7 @@ ul {
   }
   
   .weekdays li {
+    @include no-style;
     padding: $value/2;
     // display: inline-block;
     // width: 13.6%;
@@ -61,6 +65,7 @@ ul {
     background: #eee;
     margin: 0;
     display: flex;
+    @include no-style;
     flex-wrap: nowrap;
     justify-content: space-between;
     cursor: pointer;
@@ -68,7 +73,7 @@ ul {
   
   .days li {
     padding: $value/2;
-    list-style-type: none;
+    @include no-style;
     // display: inline-block;
     // width: 13.6%;
     // text-align: center;

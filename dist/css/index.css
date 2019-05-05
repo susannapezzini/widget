@@ -205,7 +205,10 @@ body {
   margin-top: 8px; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
 
 /* Month header */
 .month {
@@ -224,7 +227,9 @@ ul {
 .month ul li {
   color: white;
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  list-style-type: none;
+  text-decoration: none; }
 
 /* Previous button inside month header */
 .month .prev {
@@ -238,6 +243,8 @@ ul {
 
 /* Weekdays (Mon-Sun) */
 .weekdays {
+  list-style-type: none;
+  text-decoration: none;
   margin: 0;
   background-color: #ddd;
   display: flex;
@@ -245,6 +252,8 @@ ul {
   justify-content: space-between; }
 
 .weekdays li {
+  list-style-type: none;
+  text-decoration: none;
   padding: 8px;
   color: #666;
   text-align: center; }
@@ -254,6 +263,8 @@ ul {
   background: #eee;
   margin: 0;
   display: flex;
+  list-style-type: none;
+  text-decoration: none;
   flex-wrap: nowrap;
   justify-content: space-between;
   cursor: pointer; }
@@ -261,6 +272,7 @@ ul {
 .days li {
   padding: 8px;
   list-style-type: none;
+  text-decoration: none;
   margin-bottom: 5px;
   font-size: 12px;
   color: #777; }
