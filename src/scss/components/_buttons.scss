@@ -71,7 +71,7 @@
 }
 
 .login {
-    margin-top: $value*3;
+    margin-top: $value*4;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -84,5 +84,15 @@
         border-radius: 5px;
         font-size: $value*0.8;
         margin-left: $value/2;
+    }
+}
+.forgot {
+    margin-top: $value*2;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: $value*0.8;
+    & a {
+        color: $success;
     }
 }

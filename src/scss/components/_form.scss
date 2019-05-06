@@ -20,5 +20,27 @@
     & input {
         margin-bottom: $value/2;
         width: 100%;
+        border-radius: 3px;
+        border: 1px solid lightgray;
+    }
+    &_radio {
+        text-align: center;
+        margin-left: $value*2;
+    }
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: $value/2;
+    font-size: $value*0.8;
+    font-weight: 500;
+
+    & input {
+        @include no-style;
+        @include no-mg-pd;
+        width: 15%;;
+
     }
 }
