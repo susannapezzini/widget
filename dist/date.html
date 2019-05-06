@@ -10,107 +10,90 @@
     <title>Widget | Select a day</title>
 </head>
 <body>
-    <div class="header">
-        <div class="header_brand">
-            <img src="../src/img/logo.png" alt="Widget Logo">
-            <p class="header_title">Widget</p>
-        </div>
-        <a class="close" href="index.html">X</a>
-    </div>
-    <div class="wrapper">
-            <div class="container">
-                <div class="container_booking">
-                    <span><strong>Your Booking:</strong></span>
-                    <ul>
-                        <li><small>1.5h - Fitness Training - $150</small></li>
-                    </ul>
+    <div class="wrapper-bg">
+        <div class="layout">
+            <div class="header">
+                <div class="header_brand">
+                    <img src="../src/img/logo.png" alt="Widget Logo">
+                    <p class="header_title">Widget</p>
                 </div>
-                <svg height="3" width="100">
-                        <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fbba42;stroke-width:2" />
-                </svg>
-
-                <p class="container_claim">
-                    Select a day:
-                </p> 
-
-                <!-- <form class="form">
-                   <input type="date">
-                </form> -->
-
-                <div class="calendar">
-
-                        <div class="month"> 
-                            <ul class="month_header">
-                                <li>&#10094;</li>
-                                <li>May 2019</li>
-                                <li>&#10095;</li>
-                            </ul>
-                        </div>
-                        
-                        <ul class="weekdays">
-                            <li>&#10094;</li>
-                            <li>M</li>
-                            <li>T</li>
-                            <li>W</li>
-                            <li>T</li>
-                            <li>F</li>
-                            <li>S</li>
-                            <li>S</li>
-                            <li>&#10095;</li>
-                        </ul>
-                            
-                        <ul class="days"> 
-                            <li>*</li>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
-                            <li>6</li>
-                            <li>7</li>
-                            <li>*</li>
-                        </ul>
-                    </div>
-
-                <p class="container_claim">
-                    Select a time slot:
-                </p> 
-
-                <form class="form">
-                        <div class="form_display">
-                            <div class="form_radio">
-                                <input type="radio" name="timeslot" value="10:00am - 11:30am" checked>
-                                <label for="timeslot">10:00am - 11:30am</label>
-                            </div>
-                            <div class="form_radio">
-                                <input type="radio" name="timeslot" value="12:00am - 13:30am">
-                                <label for="timeslot">12:00am - 13:30am</label>
-                            </div>
-                            <div class="form_radio">
-                                <input type="radio" name="timeslot" value="15:30pm - 17:00pm">
-                                <label for="timeslot">15:30pm - 17:00pm</label>
-                            </div>
-                            <div class="form_radio">
-                                <input type="radio" name="timeslot" value="17:00pm - 18:30pm">
-                                <label for="timeslot">17:00pm - 18:30pm</label>
-                            </div>
-
-                            <div class="form_radio">
-                                <input type="radio" name="timeslot" value="20:00pm - 21:30pm">
-                                <label for="timeslot">20:00pm - 21:30pm</label>
-                            </div>
-                        </div>
-                </form>
-
-                <div class="container_nav">
-                    <div class="prev">
-                        <a href="service.html">Prev</a>                    
-                    </div>
-                    <div class="next">
-                        <a href="logsign.html">Next</a>
-                    </div>
-                </div>
+                <a class="close" href="index.html">X</a>
             </div>
+            <div class="wrapper">
+                    <div class="container">
+                        <p class="container_claim">
+                            Select availability:
+                        </p> 
+
+                        <!-- <form class="form">
+                        <input type="date">
+                        </form> -->
+
+                        <div class="calendar">
+
+                                <div class="month"> 
+                                    <ul class="month_header">
+                                        <li>&#10094;</li>
+                                        <li>May 2019</li>
+                                        <li>&#10095;</li>
+                                    </ul>
+                                </div>
+                                
+                                <ul class="weekdays">
+                                    <li>&#10094;</li>
+                                    <li>M</li>
+                                    <li>T</li>
+                                    <li>W</li>
+                                    <li>T</li>
+                                    <li>F</li>
+                                    <li>S</li>
+                                    <li>S</li>
+                                    <li>&#10095;</li>
+                                </ul>
+                                    
+                                <ul class="days"> 
+                                    <li>*</li>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>*</li>
+                                </ul>
+                            </div>
+
+                      
+                        <div class="time">
+                            <div class="time_slots">
+                                <p>10:00 - 11:30</p>
+                            </div>
+                            <div class="time_slots">
+                                <p>12:00 - 13:00</p>
+                            </div>
+                            <div class="time_slots">
+                                <p>15:00 - 16:30</p>
+                            </div>
+                            <div class="time_slots">
+                                <p>19:00 - 20:30</p>
+                            </div>
+                            <div class="time_slots">
+                                <p>20:30 - 22:00</p>
+                            </div>
+                        </div>
+
+                        <div class="container_nav">
+                            <div class="prev">
+                                <a href="service.html">Prev</a>                    
+                            </div>
+                            <div class="next">
+                                <a href="logsign.html">Next</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
     </div>
     
 </body>

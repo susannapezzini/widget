@@ -5,6 +5,9 @@
     align-content: center;
     justify-content: space-between;
     padding: $value;
+    @media screen and (min-width:$mq-md) {
+        height: $value*3;
+    }
     &_brand {
         display: flex;
         align-items: center;

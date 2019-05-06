@@ -1,0 +1,14 @@
+.layout {
+    background-color: $neutral;
+    @media screen and (min-width:$mq-md) {
+        width: 25vw;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        -webkit-box-shadow: 6px 6px 3px 0px rgba(168,168,168,1);
+        -moz-box-shadow: 6px 6px 3px 0px rgba(168,168,168,1);
+        box-shadow: 6px 6px 3px 0px rgba(168,168,168,1);
+    }
+}
