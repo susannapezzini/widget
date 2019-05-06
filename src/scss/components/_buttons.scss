@@ -65,3 +65,24 @@
 .big {
     width: 100%;
 }
+
+.small {
+    font-size: $value*0.8;
+}
+
+.login {
+    margin-top: $value*3;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    & a {
+        color: $neutral;
+        @include no-style;
+        font-weight: 600;
+        background-color: $success;
+        padding: $value/2;
+        border-radius: 5px;
+        font-size: $value*0.8;
+        margin-left: $value/2;
+    }
+}

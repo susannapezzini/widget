@@ -215,6 +215,25 @@ body {
 .big {
   width: 100%; }
 
+.small {
+  font-size: 12.8px; }
+
+.login {
+  margin-top: 48px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center; }
+  .login a {
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #20C1C7;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12.8px;
+    margin-left: 8px; }
+
 .form,
 .form_select {
   -webkit-appearance: none;
@@ -230,6 +249,13 @@ body {
   .form_display {
     display: flex;
     flex-direction: column; }
+  .form_inline {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .form input {
+    margin-bottom: 8px;
+    width: 100%; }
 
 .calendar {
   margin-top: 8px; }

@@ -12,4 +12,13 @@
     display: flex;
     flex-direction: column;
     }
+    &_inline {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    & input {
+        margin-bottom: $value/2;
+        width: 100%;
+    }
 }
