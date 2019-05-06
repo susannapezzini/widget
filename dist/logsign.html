@@ -10,42 +10,58 @@
     <title>Widget | Select a time slot</title>
 </head>
 <body>
-    <div class="header">
-        <div class="header_brand">
-            <img src="../src/img/logo.png" alt="Widget Logo">
-            <p class="header_title">Widget</p>
-        </div>
-        <a class="close" href="index.html">X</a>
-    </div>
-    <div class="wrapper">
-            <div class="container">
-                <div class="container_booking">
-                    <span><strong>Your Booking:</strong></span>
-                    <ul>
-                        <li><small>1.5h - Fitness Training - $150</small></li>
-                        <li><small>Tuesday, 17th May 2019</small></li>
-                        <li><small>20:00pm - 21:30pm</small></li>
-                    </ul>
-                </div>
-                <svg height="3" width="100">
-                        <line x1="0" y1="0" x2="100" y2="0" style="stroke:#fbba42;stroke-width:2" />
-                </svg>
-
-                <p class="container_claim">
-                    Before you proceed with payment you need to create an account. <br>
-                    If you already have one, please login.
-                </p> 
-
-                <div class="container_nav">
-                    <div class="prev">
-                        <a href="login.html">Login</a>                    
-                    </div>
-                    <div class="next">
-                        <a href="signup.html">Signup</a>
-                    </div>
-                </div>
+    <div class="wrapper-bg">
+    <div class="layout">
+                <div class="header">
+            <div class="header_brand">
+                <img src="../src/img/logo.png" alt="Widget Logo">
+                <p class="header_title">Widget</p>
             </div>
+            <a class="close" href="index.html">X</a>
+        </div>
+        <div class="wrapper">
+                <div class="container">
+                        <p class="container_claim">
+                            Provide your payment info:
+                        </p> 
+                        <form class="form">
+                                <div class="form_display">
+                                    <label for="name">Name</label>
+                                    <input type="text">
+
+                                    <label for="email">Email</label>
+                                    <input type="email">
+            
+                                    <label for="Password">Password</label>
+                                    <input type="password">
+            
+                                    <label for="card_number">Card Number</label>
+                                    <input type="number">
+            
+                                    <label for="expiration">Expiration</label>
+                                    <input type="date">
+
+                                    <label for="cvc">CVC</label>
+                                    <input type="number">
+                                </div>
+                        </form>
+                        <div class="next big">
+                            <a href="booking.html">Signup and Pay</a>
+                        </div>
+
+                        <p class="container_claim">
+                            If you already have an account, login.
+                        </p> 
+                        <div class="prev big">
+                            <a href="login.html">Login</a>                    
+                        </div>
+
+
+                </div>
+        </div>
     </div>
+    </div>
+
     
 </body>
 </html>

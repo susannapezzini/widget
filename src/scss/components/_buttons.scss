@@ -35,14 +35,14 @@
         color: $success;
     }
     
-    & a:hover {
-        color: $neutral;
-        background-color: $success;
-    }
+    // & a:hover {
+    //     color: $neutral;
+    //     background-color: $success;
+    // }
 
-    &:hover {
-        background-color: $success;
-    }
+    // &:hover {
+    //     background-color: $success;
+    // }
 }
 
 
@@ -60,4 +60,8 @@
         @include no-style;
         color: $neutral;
     }
+}
+
+.big {
+    width: 100%;
 }

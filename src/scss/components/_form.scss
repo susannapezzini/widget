@@ -1,6 +1,9 @@
 .form,
 .form_select {
     @include no-appearence;
+    font-size: $value*0.8;
+    border-radius: 3px;
+    // border: 1px solid lightgrey;
 }
 
 .form {
