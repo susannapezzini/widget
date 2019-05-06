@@ -6,8 +6,12 @@
     background-color: $neutral;
     @media screen and (min-width:$mq-md) {
         width: 100%;
-        height: 500px;
+        height: 400px;
         overflow: auto;
+    }
+    
+    @media screen and (min-width:$mq-l) {
+        height: 500px;
     }
 
     
