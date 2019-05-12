@@ -30,31 +30,31 @@
                                     <div class="form_inline">
                                         <div class="form_display">
                                             <label for="name">First Name</label>
-                                            <input type="text">
+                                            <input type="text" required>
                                         </div>
                                             <div class="form_display">
                                             <label for="name">Last Name</label>
-                                            <input type="text">
+                                            <input type="text" required>
                                         </div>
                                     </div>
 
                                     <label for="email">Email</label>
-                                    <input type="email">
+                                    <input type="email" required>
             
                                     <label for="Password">Create Password</label>
-                                    <input type="password">
+                                    <input type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
             
                                     <label for="card_number">Card Number</label>
-                                    <input type="number">
+                                    <input type="number" required>
 
                                     <div class="form_inline">
                                         <div class="form_display">
                                             <label for="expiration">Expiration</label>
-                                            <input type="date">
+                                            <input type="date" required>
                                         </div>
                                         <div class="form_display">
                                             <label for="cvc">CVC</label>
-                                            <input type="number">
+                                            <input type="number" required pattern="^[0-9]{3}$">
                                         </div>
                                     </div>
                                 </div>
